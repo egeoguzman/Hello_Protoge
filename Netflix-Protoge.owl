@@ -1,0 +1,2438 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/asus/ontologies/2021/4/AdinBatsin#"
+     xml:base="http://www.semanticweb.org/asus/ontologies/2021/4/AdinBatsin"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Netflix_Ontology="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Actor_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Actor_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cinematographer_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cinematographer_of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Created_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Created_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Creator"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Directed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Directed_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Distributed_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Distributed_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Earned -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Earned">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Editor_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Editor_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Is -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Is">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Language_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Language_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Located_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Located_in">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Played_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Played_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Produced_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Produced_by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_of">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Written_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Written_by">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#IMDB_Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#IMDB_Rating">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Release_Year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Release_Year">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Gender -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Gender">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Nationality -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client_Nationality">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Creator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Creator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Netflix"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#A_Monster_Calls -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#A_Monster_Calls">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._A._Bayona"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Gaudí_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spain"/>
+        <Netflix_Ontology:Produced_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Belén_Atienza"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Patrick_Ness"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.5</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Aamir_Khan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Aamir_Khan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#3_Idiots"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#About_Time -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#About_Time">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Richard_Curtis"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Romantic"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Margot_Robbie"/>
+        <Netflix_Ontology:Produced_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Eric_Fellner"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Richard_Curtis"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Al_Pacino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Al_Pacino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Scarface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Albert_Brooks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Albert_Brooks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Alfonso_Cuarón -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Alfonso_Cuarón">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Lesnie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Lesnie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lord_of_the_Rings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Lincoln -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Lincoln">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Walking_Dead"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Stanton -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Stanton">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Anime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Anime">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Annual_Directors_Guild_of_America_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Annual_Directors_Guild_of_America_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Arabic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Arabic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Arthur_Schmidt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Arthur_Schmidt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Back_to_the_Future"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Back_to_the_Future -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Back_to_the_Future">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_Zemeckis"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Lloyd"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_Zemeckis"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.5</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1987</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Barrie_M._Osborne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Barrie_M._Osborne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Barry_Ackroyd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Barry_Ackroyd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Green_Zone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Beijing_College_Student_Film_Festival -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Beijing_College_Student_Film_Festival">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Belén_Atienza -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Belén_Atienza">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ben_Burtt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ben_Burtt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ben_Davis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ben_Davis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Stardust"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Bernat_Vilaplana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Bernat_Vilaplana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#A_Monster_Calls"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pan&apos;s_Labyrinth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Black_Mirror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Black_Mirror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Charlie_Brooker"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Thrillers"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Charlie_Brooker"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Boston_Society_of_Film_Critics_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Boston_Society_of_Film_Critics_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Breaking_Bad -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Breaking_Bad">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Vince_Gilligan"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Releasing"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Motion_Picture_Group"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spanish"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Bryan_Cranston"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.5</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Brian_De_Palma -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Brian_De_Palma">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#British_Academy_of_Film_and_Television_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#British_Academy_of_Film_and_Television_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Broadcast_Film_Critics_Association_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Broadcast_Film_Critics_Association_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Bryan_Cranston -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Bryan_Cranston">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Breaking_Bad"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Caleb_Deschanel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Caleb_Deschanel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Spiderwick_Chronicles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cannes_Film_Festival_Winners -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cannes_Film_Festival_Winners">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Charlie_Brooker -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Charlie_Brooker">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cheung_Ka-fai -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cheung_Ka-fai">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ip_Man"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#China -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#China">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chinese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chinese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Brancato -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Brancato">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Columbus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Columbus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Lloyd -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Lloyd">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Back_to_the_Future"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Nolan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Nolan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Rouse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Rouse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Green_Zone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cillian_Murphy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cillian_Murphy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peaky_Blinders"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Classic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Classic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dan_Lebental -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dan_Lebental">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zathura:_A_Space_Adventure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Daniel_Radcliffe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Daniel_Radcliffe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Harry_Potter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#David_Eggby -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#David_Eggby">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mad_Max"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#David_Yates -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#David_Yates">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Deadpool -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Deadpool">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tim_Miller"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#20th_Century_Fox"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Empire_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ryan_Reynolds"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dean_Cundey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dean_Cundey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Back_to_the_Future"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Documentaries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Documentaries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Donnie_Yen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Donnie_Yen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ip_Man"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#DreamWorks_Pictures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#DreamWorks_Pictures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Edmond_Wong -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Edmond_Wong">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ege -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ege">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client"/>
+        <untitled-ontology-9:Client_Age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</untitled-ontology-9:Client_Age>
+        <untitled-ontology-9:Client_Gender rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Male</untitled-ontology-9:Client_Gender>
+        <untitled-ontology-9:Client_Nationality rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Turkish</untitled-ontology-9:Client_Nationality>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Elijah_Wood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Elijah_Wood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lord_of_the_Rings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Emma_Stone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Emma_Stone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zombieland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Empire_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Empire_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Zeland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Eric_Fellner -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Eric_Fellner">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Eric_Gautier -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Eric_Gautier">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Into_the_Wild"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Finding_Nemo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Finding_Nemo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Stanton"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pixar_Animation_Studios"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Voice_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Albert_Brooks"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.1</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Forest_Gump -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Forest_Gump">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_Zemeckis"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Golden_Globe_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tom_Hanks"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1994</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Frank_Darabont -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Frank_Darabont">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Freddie_Highmore -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Freddie_Highmore">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Spiderwick_Chronicles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#French -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#French">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Gaudí_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Gaudí_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#George_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#George_Miller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#German -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#German">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Golden_Globe_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Golden_Globe_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Green_Zone -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Green_Zone">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paul_Greengrass"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Thrillers"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matt_Damon"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_Navarro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_Navarro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pan&apos;s_Labyrinth"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zathura:_A_Space_Adventure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_del_Toro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_del_Toro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Producer"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Harry_Potter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Harry_Potter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Alfonso_Cuarón"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Columbus"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#David_Yates"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mike_Newell"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#British_Academy_of_Film_and_Television_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Daniel_Radcliffe"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._K._Rowling"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.7</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2001</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Henry_Cavill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Henry_Cavill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Witcher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Hindi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Hindi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Holly_Black -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Holly_Black">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Horror -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Horror">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Hoyte_van_Hoytema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Hoyte_van_Hoytema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Interstellar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Inception -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Inception">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Nolan"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Thrillers"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Leonardo_DiCaprio"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Independent_Spirit_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Independent_Spirit_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#India -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#India">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Interstellar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Interstellar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Christopher_Nolan"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Golden_Globe_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_McConaughey"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.6</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Into_the_Wild -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Into_the_Wild">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sean_Penn"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Vantage"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Golden_Globe_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.1</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ip_Man -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ip_Man">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Wilson_Yip"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mandarin_Films"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Beijing_College_Student_Film_Festival"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chinese"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#China"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Donnie_Yen"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Edmond_Wong"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.0</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Italian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Italian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ivana_Baquero -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ivana_Baquero">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pan&apos;s_Labyrinth"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._A._Bayona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._A._Bayona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Liam_Neeson"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._K._Rowling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._K._Rowling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._R._R._Tolkien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._R._R._Tolkien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Japanese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Japanese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jay_Cassidy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jay_Cassidy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Into_the_Wild"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jerry_Greenberg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jerry_Greenberg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Scarface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_A._Alonzo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_A._Alonzo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Scarface"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Gilbert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Gilbert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lord_of_the_Rings"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Guleserian -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Guleserian">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#About_Time"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Lasseter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Lasseter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jon_Favreau -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jon_Favreau">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jon_Harris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jon_Harris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Stardust"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jonathan_Taylor_Thomas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jonathan_Taylor_Thomas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Josh_Hutcherson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Josh_Hutcherson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zathura:_A_Space_Adventure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Keanu_Reeves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Keanu_Reeves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Kivanc -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Kivanc">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Client"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Korean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Korean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Kristen_Stewart -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Kristen_Stewart">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lee_Smith -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lee_Smith">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Interstellar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Leonardo_DiCaprio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Leonardo_DiCaprio">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Inception"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wolf_of_Wall_Street"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Liam_Neeson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Liam_Neeson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#A_Monster_Calls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lionsgate_Films -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lionsgate_Films">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lord_of_the_Rings -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Lord_of_the_Rings">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peter_Jakson"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Line_Cinema"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Zeland"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Elijah_Wood"/>
+        <Netflix_Ontology:Produced_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Barrie_M._Osborne"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#J._R._R._Tolkien"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2003</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Los_Angeles_Film_Critics_Association_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Los_Angeles_Film_Critics_Association_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mad_Max -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mad_Max">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#George_Miller"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roadshow_Film_Distributors"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Australia"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.9</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mandarin_Films -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mandarin_Films">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Margot_Robbie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Margot_Robbie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#About_Time"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mark_Day -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mark_Day">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#About_Time"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mark_Waters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mark_Waters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Martin_Scorsese -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Martin_Scorsese">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matrix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wachowskis"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Keanu_Reeves"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.7</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1999</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matt_Damon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matt_Damon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Green_Zone"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_McConaughey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_McConaughey">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Interstellar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_Vaughn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_Vaughn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mel_Gibson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mel_Gibson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mad_Max"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Metro-Goldwyn-Mayer_Studios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Metro-Goldwyn-Mayer_Studios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Bonvillain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Bonvillain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zombieland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Dante_DiMartino -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Dante_DiMartino">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Creator"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Kahn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Kahn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Spiderwick_Chronicles"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mike_Newell -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mike_Newell">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Music -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Music">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#NAACP_Image_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#NAACP_Image_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Narcos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Narcos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Chris_Brancato"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Netflix"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spanish"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#National_Board_of_Review_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#National_Board_of_Review_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#National_Society_of_Film_Critics_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#National_Society_of_Film_Critics_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Netflix -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Netflix">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Line_Cinema -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Line_Cinema">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_York_Film_Critics_Circle_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_York_Film_Critics_Circle_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Zeland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#New_Zeland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Nickelodeon -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Nickelodeon">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#O_Sing-Pui -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#O_Sing-Pui">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ip_Man"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Otto_Bathurst -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Otto_Bathurst">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Vantage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Vantage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Patrick_Ness -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Patrick_Ness">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paul_Greengrass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paul_Greengrass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peaky_Blinders -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peaky_Blinders">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Otto_Bathurst"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Netflix"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#British_Academy_of_Film_and_Television_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Cillian_Murphy"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Steven_Knight"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.8</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peter_Amundson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peter_Amundson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zombieland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peter_Jakson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Peter_Jakson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pixar_Animation_Studios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pixar_Animation_Studios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Poland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Poland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Rajkumar_Hirani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Rajkumar_Hirani">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Reliance_BIG_Pictures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Reliance_BIG_Pictures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Richard_Curtis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Richard_Curtis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roadshow_Film_Distributors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roadshow_Film_Distributors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_De_Niro -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_De_Niro">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Stardust"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_Zemeckis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_Zemeckis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roger_Allers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roger_Allers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Romantic -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Romantic">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ruben_Fleischer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ruben_Fleischer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ryan_Reynolds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ryan_Reynolds">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Deadpool"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Scarface -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Scarface">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Brian_De_Palma"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Al_Pacino"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.3</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1985</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sean_Penn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sean_Penn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Motion_Picture_Group -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Motion_Picture_Group">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Releasing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Releasing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spanish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spanish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Stardust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Stardust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matthew_Vaughn"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Empire_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Romantic"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Robert_De_Niro"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.6</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Steven_Knight -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Steven_Knight">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Writer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Lion_King -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Lion_King">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Roger_Allers"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Voice_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jonathan_Taylor_Thomas"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.5</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1995</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Spiderwick_Chronicles -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Spiderwick_Chronicles">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mark_Waters"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Freddie_Highmore"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Holly_Black"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.5</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wachowskis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wachowskis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Walking_Dead -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Walking_Dead">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Frank_Darabont"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#20th_Century_Fox"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#MTV_Movie_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Horror"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Lincoln"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Weinstein_Company -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Weinstein_Company">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Witcher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Witcher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Netflix"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Poland"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Henry_Cavill"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wolf_of_Wall_Street -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Wolf_of_Wall_Street">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Martin_Scorsese"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Paramount_Pictures"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#The_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Leonardo_DiCaprio"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Thrillers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Thrillers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tim_Miller -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tim_Miller">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tom_Hanks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tom_Hanks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Forest_Gump"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tony_Paterson -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tony_Paterson">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Editor"/>
+        <Netflix_Ontology:Editor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Mad_Max"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Toy_Story -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Toy_Story">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#John_Lasseter"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pixar_Animation_Studios"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Voice_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Tom_Hanks"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.3</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1996</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Turkish -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Turkish">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Language"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_Kingdom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Location"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Universal_Pictures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Vince_Gilligan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Vince_Gilligan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#WALL-E -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#WALL-E">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Andrew_Stanton"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pixar_Animation_Studios"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Animation"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Voice_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ben_Burtt"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.4</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Wagner_Moura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Wagner_Moura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Actor"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Narcos"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Walt_Disney_Studios">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+        <Netflix_Ontology:Actor_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Matrix"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Wilson_Yip -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Wilson_Yip">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Director"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zach_Tyler_Eisen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zach_Tyler_Eisen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Voice_Actor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zombieland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zombieland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ruben_Fleischer"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Releasing"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Emma_Stone"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.7</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Óscar_Faura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Óscar_Faura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Cinematographer"/>
+        <Netflix_Ontology:Cinematographer_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#A_Monster_Calls"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#20th_Century_Fox -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#20th_Century_Fox">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Organization"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#3_Idiots -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#3_Idiots">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Rajkumar_Hirani"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Reliance_BIG_Pictures"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Hindi"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#India"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Aamir_Khan"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.4</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#79th_Academy_Awards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#79th_Academy_Awards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Avatar:_The_Last_Airbender -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Avatar:_The_Last_Airbender">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Created_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Michael_Dante_DiMartino"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Nickelodeon"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Anime"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Comedies"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#TV_Shows"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Voice_of rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zach_Tyler_Eisen"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Children_&amp;_Family -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Children_&amp;_Family">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pan&apos;s_Labyrinth -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Pan&apos;s_Labyrinth">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_del_Toro"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Warner_Bros"/>
+        <Netflix_Ontology:Earned rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#79th_Academy_Awards"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Dramas"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spanish"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Spain"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Ivana_Baquero"/>
+        <Netflix_Ontology:Produced_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_del_Toro"/>
+        <Netflix_Ontology:Written_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Guillermo_del_Toro"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">8.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sci-fi_&amp;_Fantasy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Genre"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Slideshow:_Minority_Oscar_Winners -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Slideshow:_Minority_Oscar_Winners">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Movie_Award"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zathura:_A_Space_Adventure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Zathura:_A_Space_Adventure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/untitled-ontology-9#Program"/>
+        <Netflix_Ontology:Directed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Jon_Favreau"/>
+        <Netflix_Ontology:Distributed_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Sony_Pictures_Motion_Picture_Group"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Fantasy"/>
+        <Netflix_Ontology:Is rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Action_&amp;_Adventure"/>
+        <Netflix_Ontology:Language_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#English"/>
+        <Netflix_Ontology:Located_in rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#United_States"/>
+        <Netflix_Ontology:Played_by rdf:resource="http://www.semanticweb.org/asus/ontologies/2021/4/Netflix_Ontology#Josh_Hutcherson"/>
+        <Netflix_Ontology:IMDB_Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.2</Netflix_Ontology:IMDB_Rating>
+        <Netflix_Ontology:Release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</Netflix_Ontology:Release_Year>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
