@@ -2,6 +2,10 @@
 
 Basic Netflix Ontology by using Stanford's Protoge
 
+https://protege.stanford.edu
+---
+https://protegewiki.stanford.edu/wiki/Main_Page
+
 ![Screen Shot 2021-05-18 at 09 36 04](https://user-images.githubusercontent.com/32989239/119048417-dc43e680-b9c7-11eb-9a2c-76d680061d6e.png)
 ---
 ![Screen Shot 2021-05-18 at 09 46 13](https://user-images.githubusercontent.com/32989239/119048428-dfd76d80-b9c7-11eb-8cc0-478d54818053.png)
