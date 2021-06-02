@@ -1,6 +1,6 @@
 ## Hello Protoge
 
-Small Netflix Ontology by using Stanford's Protoge
+Basic Netflix Ontology by using Stanford's Protoge
 
 ![Screen Shot 2021-05-18 at 09 36 04](https://user-images.githubusercontent.com/32989239/119048417-dc43e680-b9c7-11eb-9a2c-76d680061d6e.png)
 ---
